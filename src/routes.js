@@ -3,7 +3,7 @@ import { useRoutes } from "react-router-dom";
 
 // internal import statement
 import { NoMatch } from "./Pages";
-import { AuthLayout, VerificationLayout } from "./layout";
+import { AuthLayout, VerificationLayout, DashboardLayout } from "./layout";
 
 // custom Router
 const Router = () => {
@@ -11,6 +11,7 @@ const Router = () => {
         { path: "*", element: <NoMatch /> },
         { path: "/", element: <AuthLayout /> },
         { path: "/v", element: <VerificationLayout /> },
+        { path: "/app", element: <DashboardLayout /> },
     ];
     let element = useRoutes(routes);
     return element;
