@@ -1,0 +1,44 @@
+// fonts
+@import url("antd/dist/antd.css");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+// general styles
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  font-family: var(--brand-district-font-one);
+}
+
+// application style constants
+:root {
+  --brand-district-font-one: "Poppins", sans-serif;
+  --brand-district-blue: #55a0d2;
+  --brand-district-black: #001825;
+  --brand-district-grey: #003049;
+  --grey-one: #8097a4;
+  --grey-two: #aabac2;
+  --grey-three: #d4dce0;
+  --grey-four: #e9edef;
+  --purple: #49002c;
+  --blue: #443df6;
+  --red: #c5292a;
+  --marina: #c1e5f6;
+  --green: #117c1a;
+  --natural-white: #fff;
+  --off-white: #f9f9f9;
+  --deep-shadow: 0px 4px 4px rgba(0, 48, 73, 0.12),
+    0px 4px 4px rgba(0, 48, 73, 0.12);
+  --light-shadow: 0px 4px 4px rgba(0, 48, 73, 0.12);
+}
