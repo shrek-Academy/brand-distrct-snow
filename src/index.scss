@@ -27,8 +27,6 @@ html {
   
 }
 
-
-
 // application style constants
 :root {
   --brand-district-font-one: "Poppins", sans-serif;
@@ -49,4 +47,106 @@ html {
   --deep-shadow: 0px 4px 4px rgba(0, 48, 73, 0.12),
     0px 4px 4px rgba(0, 48, 73, 0.12);
   --light-shadow: 0px 4px 4px rgba(0, 48, 73, 0.12);
+}
+
+// Main Css
+.auth {
+  height: 100vh;
+  z-index: 999999;
+
+  .left-side{
+    background-color: var(--brand-district-blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem 4rem;
+    position: relative;
+
+    #overlay {
+      background-image: url(./assets/img/Floating-bg.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: top center;
+
+      header {
+        width: 100%;
+
+        nav {
+          > div {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+              outline: none;
+              background: transparent;
+              color: var(--natural-white);
+              border: none;
+              font-weight: 600;
+              font-size: 16px;
+              line-height: 24px;
+              padding-bottom: 5px;
+
+              &.active {
+                border-bottom: 2px solid var(--natural-white);
+              }
+            }
+          }
+
+          .logo {
+            display: flex;
+            gap: 0.7rem;
+
+            p {
+              display: flex;
+              flex-direction: column;
+              color: var(--natural-white);
+              font-weight: 700;
+              font-size: 16px;
+              line-height: 20px;
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
+      section {
+        width: 80%;
+
+        h1 {
+          font-family: "Poppins";
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 40px;
+          color: var(--natural-white);
+          margin-top: 4.5rem;
+        }
+
+        h2 {
+          color: var(--natural-white);
+          margin-top: 3rem;
+          font-family: "Poppins";
+          font-weight: 500;
+          font-size: 4rem;
+          line-height: 80px;
+        }
+
+        p {
+          color: var(--natural-white);
+          margin-top: 3rem;
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        #que {
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  .right-side{}
 }
