@@ -11,7 +11,7 @@ const AuthLayout = () => {
         <div className="auth">
             <Row>
                 <Col className="left-side" span={15}>
-                    <div id="overlay">
+                    <div id="bg-overlay">
                         <header>
                             <nav>
                                 <Space>

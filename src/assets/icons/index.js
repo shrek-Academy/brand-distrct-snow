@@ -8,6 +8,10 @@ export { ReactComponent as Reward } from "./rewards.svg";
 export { ReactComponent as Task } from "./task.svg";
 export { ReactComponent as Wallet } from "./wallet.svg";
 export { ReactComponent as AddLogo } from "./add-logo.svg";
+export { ReactComponent as GoogleIcon } from "./google-icon.svg";
+export { ReactComponent as TwitterIcon } from "./twitter-icon.svg";
+export { ReactComponent as FacebookIcon } from "./facebook-icon.svg";
+export { ReactComponent as InstgramIcon } from "./instgram-icon.svg";
 
 export function BigLogoIcon() {
     return (
