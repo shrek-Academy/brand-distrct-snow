@@ -12,6 +12,9 @@ export { ReactComponent as GoogleIcon } from "./google-icon.svg";
 export { ReactComponent as TwitterIcon } from "./twitter-icon.svg";
 export { ReactComponent as FacebookIcon } from "./facebook-icon.svg";
 export { ReactComponent as InstgramIcon } from "./instgram-icon.svg";
+export { ReactComponent as ArrowDownload } from "./arrow-download.svg";
+export { ReactComponent as ApplestoreAlt } from "./applestore-alt.svg";
+export { ReactComponent as PlaystoreAlt } from "./playstore-alt.svg";
 
 export function BigLogoIcon() {
     return (
