@@ -11,6 +11,7 @@ import {
     VericationComplete,
     GeneralHome,
     SignIn,
+    ForgetPasscode,
 } from "./Pages";
 import { AuthLayout, VerificationLayout, DashboardLayout } from "./layout";
 
@@ -35,6 +36,7 @@ const Router = () => {
                 { path: "complete", element: <VericationComplete /> },
                 { path: "account", element: <GeneralHome /> },
                 { path: "signin", element: <SignIn /> },
+                { path: "forget-passcode", element: <ForgetPasscode /> },
             ],
         },
         { path: "/app", element: <DashboardLayout /> },
