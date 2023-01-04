@@ -10,6 +10,7 @@ import {
     VerifyPhone,
     VericationComplete,
     GeneralHome,
+    SignIn,
 } from "./Pages";
 import { AuthLayout, VerificationLayout, DashboardLayout } from "./layout";
 
@@ -33,6 +34,7 @@ const Router = () => {
                 { path: "phone", element: <VerifyPhone /> },
                 { path: "complete", element: <VericationComplete /> },
                 { path: "account", element: <GeneralHome /> },
+                { path: "signin", element: <SignIn /> },
             ],
         },
         { path: "/app", element: <DashboardLayout /> },

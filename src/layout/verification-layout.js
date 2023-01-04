@@ -45,7 +45,7 @@ const VerificationLayout = () => {
                         </section>
                     </div>
                 </Col>
-                <Col className="right-side">
+                <Col className="right-side" span={9}>
                     <Outlet />
                 </Col>
             </Row>
