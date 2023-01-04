@@ -9,6 +9,7 @@ import {
     BrandHome,
     VerifyPhone,
     VericationComplete,
+    GeneralHome,
 } from "./Pages";
 import { AuthLayout, VerificationLayout, DashboardLayout } from "./layout";
 
@@ -31,6 +32,7 @@ const Router = () => {
             children: [
                 { path: "phone", element: <VerifyPhone /> },
                 { path: "complete", element: <VericationComplete /> },
+                { path: "account", element: <GeneralHome /> },
             ],
         },
         { path: "/app", element: <DashboardLayout /> },
