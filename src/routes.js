@@ -12,6 +12,7 @@ import {
     GeneralHome,
     SignIn,
     ForgetPasscode,
+    ResetEmail,
 } from "./Pages";
 import { AuthLayout, VerificationLayout, DashboardLayout } from "./layout";
 
@@ -37,6 +38,7 @@ const Router = () => {
                 { path: "account", element: <GeneralHome /> },
                 { path: "signin", element: <SignIn /> },
                 { path: "forget-passcode", element: <ForgetPasscode /> },
+                { path: "reset-email", element: <ResetEmail /> },
             ],
         },
         { path: "/app", element: <DashboardLayout /> },
