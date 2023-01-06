@@ -5,3 +5,4 @@ export { default as ForgetPasscode } from "./foget-passcode";
 export { default as ResetEmail } from "./reset/reset-email";
 export { default as ResetPhone } from "./reset/reset-phone";
 export { default as ResetComplete } from "./reset/reset-complete";
+export { default as ResetPasscode } from "./reset/reset-passcode";
