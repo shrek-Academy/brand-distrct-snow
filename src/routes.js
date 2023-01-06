@@ -14,6 +14,7 @@ import {
     ForgetPasscode,
     ResetEmail,
     ResetPhone,
+    ResetComplete,
 } from "./Pages";
 import { AuthLayout, VerificationLayout, DashboardLayout } from "./layout";
 
@@ -41,6 +42,7 @@ const Router = () => {
                 { path: "forget-passcode", element: <ForgetPasscode /> },
                 { path: "reset-email", element: <ResetEmail /> },
                 { path: "reset-phone", element: <ResetPhone /> },
+                { path: "reset-complete", element: <ResetComplete /> },
             ],
         },
         { path: "/app", element: <DashboardLayout /> },
